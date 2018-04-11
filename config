@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.comcast.com:jjohns944/slack-hooks.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[hooks "slack"]
+	webhook-url = https://hooks.slack.com/services/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
+	channel = "#general"
